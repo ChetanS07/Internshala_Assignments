@@ -6,7 +6,7 @@ body {
 }
 
 #left-panel {
-  /* width: 3vw; */
+  width: 6rem;
   height: 100vh;
   background: #37474f;
   color: #fff;
@@ -19,17 +19,21 @@ body {
 
 #left-panel:hover {
   width: 18vw;
+  transition: all 0.5s;
 }
 
 #left-panel:hover .nav-item {
   display: block;
+  opacity: 1;
 }
 
 #left-panel:hover .nav-icon {
   display: none;
+  opacity: 0;
 }
 
 .nav-item {
+  opacity: 0;
   display: none;
 }
 
